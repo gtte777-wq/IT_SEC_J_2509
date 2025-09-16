@@ -8,5 +8,5 @@ https://git-scm.com/
 https://code.visualstudio.com/
 코딩 IDE(편집기) 설치
 
-4. ctri + J
+4. ctri + J 터미널 연결
 
