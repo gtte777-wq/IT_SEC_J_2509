@@ -1,0 +1,14 @@
+git config -- global user.name "내유저이름"
+git config --global user.email "내이메일"
+==> script 명렁어
+script 명령어 : 파이썬, 노드 실행할 때 쓰이는 코드 , 마우스 버틀 클릭보다 어렵지만 강력한 기능 내포
+
+프로그래밍 언어의 종류는 多 
+주요 쓰는 언어 : Javascript, Phthon, C++,C#, Javascript 
+
+2007. ~ Java기반 한국전자정부 FrameWork 착수
+JAVA유료화에 따른 Javascript, C계열 언어를 주요 사용.
+
+Javascript 설치
+
+https://nodejs.org/ko/download Javascript 라이브러리
