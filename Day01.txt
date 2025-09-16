@@ -1,0 +1,12 @@
+1. Git 회원가입 
+https://github.com/
+
+2. 구글에서 git scm 윈도우 버전 받아서 next 눌러서 설치 
+https://git-scm.com/
+
+3. vs code 설치
+https://code.visualstudio.com/
+코딩 IDE(편집기) 설치
+
+4. ctri + J
+
