@@ -30,3 +30,11 @@ console.log(`num1:${num1}`);
 console.log(`num2:${num2}`);
 console.log(`result:${result}`);
 
+let array = [num1,num2,3,4];
+num1++;
+console.log(`array 서랍의 첫번째 array[0] : ${array[0]}`);
+console.log(`array 서랍의 두번째 array[1] : ${array[1]}`);
+console.log(`array 서랍의 세번째 array[2] : ${array[2]}`);
+console.log(`array 서랍의 네번째 array[3] : ${array[3]}`);
+console.log(`array 서랍의 네번째 array[99] : ${array[99]}`);
+console.log(`num1:${num1}`);

@@ -10,8 +10,40 @@ Keyword들 쓸때 띄어쓰기 해야지 에러가 안난다.
 let : 선언
 console.log() : 흑백 화면에 출력하라.
 console.log(``) back tick : string interpolation
-프로그래밍의 = : 대입 연산자(save)
-++ , -- : 특수 연산 (대입연산자가 없어도 값 변경 가능)
 // /* */ " 한줄 주석, 여러 줄 주석
 a = 1; b = "2"; c = a + b;
 a : 숫자 1  b : 문자열 + 연산을 하면 문자열 연산으로 전환된다.
+
+연산자 종류 : + - * / %
+프로그래밍의 = : 대입 연산자(save)
+++ , -- : 특수 연산 (대입연산자가 없어도 값 변경 가능)
+컴퓨터 : 사칙연산(Arithmetic), 제어연산(control), 논리연산(Logic)
+함수(Functional) : 컴퓨터를 작동하게 하는 매개체
+
+javascript, python, java, c# 각각의 data type이 존재
+
+<기본 자료형>
+Data type : null, undefined, boolean, number, bignit, string, symbol
+null : 아무것도 없다. 4bit정도 크기, 0이랑 완전 틀림
+undefined : null이랑 비슷 type : undefined
+boolean : true, false ( 0 , 1 )
+number : 숫자(정수, 소수점)
+bigint : 조단위 숫자
+string : 문자열
+
+<comlex 자료형>
+배열(Array) : [] 서랍
+object : {} 선물Set
+
+<인공지능 자료형>
+numpy : 숫자 덩어리 - 컴퓨터가 좋아함
+tensor : 전처리 된 숫자 덩어리 - 컴퓨터가 제일 좋아함, 다차원 행렬
+
+python, javascript는 타입이 숨어 있음.
+장점 : 어려운 데이터도 일단 받을 수 있다.
+단점 : 뭐가 뭔지 모르니, 내가 할수 있는 것이 없다.
+
+타입이 나타나 있을 때
+장점 : 몰라도 설명서 읽어서 검색할 수 있다. 사용법이 존재
+단점 : 어떤 타입을 정의해야 하는지 모르면 시작도 못함.
+
