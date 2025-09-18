@@ -7,7 +7,7 @@ node js 표준 O  python은 표준 X
 *
 자동완성 사용 적극 권장
 Keyword들 쓸때 띄어쓰기 해야지 에러가 안난다.
-let : 선언
+let : 변수를 선언
 console.log() : 흑백 화면에 출력하라.
 console.log(``) back tick : string interpolation
 // /* */ " 한줄 주석, 여러 줄 주석

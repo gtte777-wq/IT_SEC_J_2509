@@ -1,0 +1,14 @@
+Typescript
+
+npm install -g ts-node typescript
+npm : nodejs(javascript, typescript) install module framework
+
+let a=1 : 들어오는 값에 따라 type 자동 지정
+let a:number=1 개발자가 직접 type 지정
+let sum : number = 1 + "2" 같은 형식을 방어 가능 (관공서 및 은행에 쓰는 이유)
+
+Typescript - object : 자료 구조 
+               any  : 모든 타입을 적재 가능. (쇼핑몰 사품 올리기 전 이미지 미리보기같은 어려운 기능 혹은 대리 맡길 때 쓰는 타입)
+
+if 키워드가 나오면 조건 검사는 무조건 수행
+if, else if, else 구조는 한 세트로 수행되어 하나의 조건이 성립되면 다른 조건은 실행되지 않는다.
