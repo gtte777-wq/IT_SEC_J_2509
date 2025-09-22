@@ -42,7 +42,7 @@ let score = 60;
 if(score >= 90){
     console.log("당신의 학점은 A학점입니다.");
 }
-else if(score >= 80&& score < 90){
+else if(score >= 80 && score < 90){
     console.log("당신의 학점은 B학점입니다.");
 }
 else if(score >= 70 && score < 80){
@@ -54,3 +54,4 @@ else if(score >= 60 && score < 70){
 else{
     console.log("당신의 학점은 F학점입니다.");
 }
+
