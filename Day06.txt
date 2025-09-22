@@ -1,0 +1,50 @@
+<!-- 주석 내용 >
+ html 문서 선언 -->
+<!DOCTYPE html>
+<!-- html 문서 시작 --> 
+<html>
+<!-- <head> : 문서의 정보를 담는 부분 : 메타 정보 -->
+<head> </head>
+<!-- <body> : 문서의 본문을 담는 부분 --> <body>
+<!-- <h1> ~ <h6> : 제목 태그 -->
+<!-- <h1> : 가장 큰 제목 -->
+<!-- <h6> : 가장 작은 제목 -->  
+<!-- <태그> 내용 </태그> ...
+태그 : C언어의 \n 과 같은 개념
+</h1> 큰글자 </h1> 같은 형태로 범위 및 영역 설정  -->
+<!-- 현재 웹에서는 Hard ware Full Access가 불가능 -> 보안 문제 -->    
+ <br /> <!-- 강제로 줄 바꿈 태그 -->
+<div>(a href= "https://www.w3schools.com">W3Schools.com</a>)</div>
+ <span>    </span>
+ <!-- span : 일부러 줄바꿈을 실행하지 않음. -->
+    <!--a 태그 : 링크 - 다른 페이지로 넘어갈 때 쓰는 태그 --
+<!-- 문서 끝 -->
+</html>
+<!-- inline css -->
+태그 안에다가 css 스타일 다 때려 넣는거
+잘 안쓰임
+<!-- Internal CSS -->
+태그 종류 하나에다가 css를 고정시켜 버리니,
+나중에 스타일 바꿀때 힘듦.
+        body {
+            background-color: powderblue;
+        }
+
+        h1 {
+            color: blue;
+        }
+
+        p {
+            color: red;
+        }
+
+         .highlight {
+            background-color: yellow;
+            font-weight: bold;
+            padding: 10px;
+            border: 1px solid orange;
+        }
+
+        .red-text {
+            color: red;
+        }
