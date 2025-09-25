@@ -7,8 +7,6 @@
 <head> </head>
 <!-- <body> : 문서의 본문을 담는 부분 --> <body>
 <!-- <h1> ~ <h6> : 제목 태그 -->
-<!-- <h1> : 가장 큰 제목 -->
-<!-- <h6> : 가장 작은 제목 -->  
 <!-- <태그> 내용 </태그> ...
 태그 : C언어의 \n 과 같은 개념
 </h1> 큰글자 </h1> 같은 형태로 범위 및 영역 설정  -->
@@ -26,6 +24,11 @@
 <!-- Internal CSS -->
 태그 종류 하나에다가 css를 고정시켜 버리니,
 나중에 스타일 바꿀때 힘듦.
+text-align : 글자 정렬
+display : 기본값 : block
+backfround-color : 배경색
+cobo? 마우스 올렸을때 어떻게 표시형식 지정
+
         body {
             background-color: powderblue;
         }
