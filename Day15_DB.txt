@@ -1,0 +1,63 @@
+webserver
+리엑트, 리엑트네이티브
+
+
+WAS
+FastAPI, SpringBoot, Nodejs(Hono,express)
+NetCore
+
+DB
+학습용은 mariadb
+실전에선 postgres
+
+
+Vercel -
+serverless cloud
+React 배포를 위한 사이트.
+서버(WAS) 는 일부 기능만 지원.
+DB 작은용량 무료지원
+인공지능은 돌릴수 없어요.
+
+
+테이블 이름 : t_user
+username  varchar      ''
+password  varchar      ''
+created_dt timestamptz now()
+updated_dt timestamptz now()
+
+
+테이블 이름 : t_board
+user_id  int4
+
+FK 가 있는 테이블이 무조간 자식 테이블
+
+부모 1 : 자식 N
+
+
+한국에서 쓰는 서버 3대장
+1. Spring
+2. Nodejs
+3. FastAPI
+4. .Net Core (게임용)
+
+
+
+
+
+
+
+
+
+
+fastapi
+
+uvicorn[standard]
+
+sqlalchemy
+
+asyncpg # 비동기 Postgres 드라이버
+
+pydantic-settings
+
+python-dotenv
+
