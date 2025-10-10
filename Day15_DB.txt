@@ -61,3 +61,5 @@ pydantic-settings
 
 python-dotenv
 
+실행 : code .
+

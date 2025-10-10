@@ -1,0 +1,38 @@
+Node js-
+리엑트 (웹, 앱), 서버, 거진 만능
+
+파이썬 -
+AI {
+    약 인공지능
+    강 인공지능 GPT
+}
+
+DB
+postgres (실무에서 많이 씀) 엔진
+table plus (Tool)
+
+FastAPI -
+서버
+
+-- 특정 테이블의 데이터 보기
+SELECT
+* (모든 칼럼)
+FROM t_user
+;
+
+-- 특정 테이블의 데이터 넣기
+INSERT INTO t_user(username, password)
+VALUES('홍길동','1234')
+;
+
+-- 데이터 수정. 무조건 where id 들어가야함. 안그러면 데이터 다 날라감
+UPDATE t_user SET
+password='aaaa'
+WHERE id=1
+;
+
+-- 데이터 삭제. 무조건 where id 들어가야함. 안그러면 데이터 다 날라감
+DELETE FROM t_user
+WHERE id=1
+;
+
