@@ -1,0 +1,60 @@
+npm create hono@latest 내프로잭트 이름
+- Scaffolding. 프로젝트 생성 자동
+
+index.ts
+요게 핵심. 요기서 코딩하고 논다고 생각하시면 되요
+
+tsconfig
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "NodeNext",
+    "noUnusedLocals": false, // 사용되지 않는 지역 변수 경고 끄기
+    "noUnusedParameters": false, // 사용되지 않는 함수 매개변수 경고 끄기
+    "strict": true,
+    "verbatimModuleSyntax": true,
+    "skipLibCheck": true,
+    "types": ["node"],
+    "jsx": "react-jsx",
+    "jsxImportSource": "hono/jsx",
+    "outDir": "./dist"
+  },
+  "exclude": ["node_modules"]
+}
+
+app.get("/test1", (c) => {
+  let result: { success: boolean; data: any; msg: string } = {
+    success: true,
+    data: null,
+    msg: ``,
+  };
+  try {
+    let q = c?.req?.query("q");
+    result.data = q;
+    return c.json(result);
+  } catch (error: any) {
+    return c.json(result);
+  }
+});
+
+DB연결을 위한 순서.
+* npm i -g typeorm-model-generator
+
+.env.development 파일 root에 만들기.
+
+DB_HOST= (본인 HOST아이디)
+DB_PORT=5432
+DB_USERNAME=neondb_owner
+DB_PASSWORD= (본인 Password)
+DB_NAME=neondb
+
+* npm i cross-env dotenv pg reflect-metadata rimraf typeorm zod
+
+* src/data-source1.ts
+
+* model generator 돌리기
+typeorm-model-generator -h (본인DB주소) -d neondb -u neondb_owner -x
+(본인DB password) -e postgres -o ./src --ssl
+
+typeorm-model-generator -h ep-still-boat-ad6iauih-pooler.c-2.us-east-1.aws.neon.tech
+-d neondb -u neondb_owner -x npg_iOu8HF1WEQZM -e postgres -o ./src --ssl
