@@ -1,0 +1,29 @@
+pm create vite@latest itsec_react_2509 -- --template react-ts
+이거는 새로만들 위치에다 시작
+
+npm install react-router-dom
+NS 들어가서 터미널 자리에다 시작
+
+tsconfig.nodes and tsconfig.app 에다가
+
+"noUnusedLocals": false,
+"noUnusedParameters": false,
+수정하기.
+
+header 및 footer 수정
+
+npm install tailwindcss @tailwindcss/vite
+
+import { defineConfig } from 'vite'
+import tailwindcss from '@tailwindcss/vite'
+export default defineConfig({
+  plugins: [
+    tailwindcss(),
+  ],
+})
+이런형식으로 tailwindcss 설정
+
+index.css 에 @import "tailwindcss"; 추가
+
+
+
