@@ -1,0 +1,23 @@
+서버 돌리는 명령어 : npm run dev
+
+ipconfig, env. index.ts, data-source1 가져 오기. 초기 셋팅
+
+npm install -g @google/gemini-cli@latest
+- gemini cli
+
+npm create hono@latest itsec_hono_2509
+- nodejs hono 서버 생성 명령어
+- my-app 이걸 내가 원하는 이름으로
+
+npm i cross-env dotenv pg reflect-metadata rimraf typeorm zod
+- DB연결하기 위한 관련파일 설치
+
+typeorm-model-generator -h 뭐뭐 -d neondb -u neondb_owner -x 뭐뭐 -e postgres -o ./src --ssl
+- model generator 돌리기
+- DB를 객체로 만들어서 데이터 송수신 편하게 만들기
+typeorm-model-generator -h ep-still-boat-ad6iauih-pooler.c-2.us-east-1.aws.neon.tech -d neondb -u neondb_owner -x npg_iOu8HF1WEQZM -e postgres -o ./src --ssl
+
+gemini CLI Companion
+
+gemini
+mycommand.md
